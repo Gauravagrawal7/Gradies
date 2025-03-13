@@ -4,7 +4,7 @@
 
 ### 1️⃣ Clone the Repository
 
-git clone https:
+git clone https://github.com/Gauravagrawal7/Gradies.git
 cd Hero
 
 ### 2️⃣ Install Dependencies
@@ -18,7 +18,7 @@ npm run dev
 ### 4️⃣ Navigate to Localhost URL
 
 Open the browser and go to:
-👉 http://localhost:5
+👉 http://localhost:5173/
 
 ###5️⃣ Compile and Minify for Production
 If you want to create a production build, run:
