@@ -1,0 +1,137 @@
+.about-section {
+  display: flex;
+  margin-top: 45px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  justify-content: center;
+  padding: 112px 64px;
+}
+@media (max-width: 991px) {
+  .about-section {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 100px 20px;
+  }
+}
+.about-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 40px 80px;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+  .about-container {
+    max-width: 100%;
+  }
+}
+.about-content {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .about-content {
+    max-width: 100%;
+  }
+}
+.about-text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+@media (max-width: 991px) {
+  .about-text {
+    max-width: 100%;
+  }
+}
+.about-heading {
+  color: #dcdcdc;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+@media (max-width: 991px) {
+  .about-heading {
+    max-width: 100%;
+  }
+}
+.about-description {
+  color: #dcdcdc;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 24px;
+}
+@media (max-width: 991px) {
+  .about-description {
+    max-width: 100%;
+  }
+}
+.about-features {
+  display: flex;
+  margin-top: 32px;
+  width: 100%;
+  flex-direction: column;
+  color: #dcdcdc;
+  justify-content: start;
+}
+@media (max-width: 991px) {
+  .about-features {
+    max-width: 100%;
+  }
+}
+.feature-row {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  gap: 24px;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+@media (max-width: 991px) {
+  .feature-row {
+    max-width: 100%;
+  }
+}
+.feature-item {
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+  flex-basis: 0%;
+}
+.feature-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.feature-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.about-image {
+  border-radius: 20px;
+  background-color: rgba(138, 138, 138, 1);
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  width: 616px;
+  height: 640px;
+  flex: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}

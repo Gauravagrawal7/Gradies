@@ -1,0 +1,139 @@
+.services-section {
+  display: flex;
+  margin-top: 45px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: start;
+  padding: 112px 64px;
+}
+@media (max-width: 991px) {
+  .services-section {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 100px 20px;
+  }
+}
+.services-title {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  gap: 40px 80px;
+  font-family: Roboto, sans-serif;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+  .services-title {
+    max-width: 100%;
+  }
+}
+.services-heading {
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 40px;
+  color: #dcdcdc;
+  font-weight: 700;
+  line-height: 48px;
+  justify-content: start;
+  flex: 1;
+  flex-basis: 0%;
+}
+@media (max-width: 991px) {
+  .services-heading {
+    max-width: 100%;
+  }
+}
+.services-description {
+  min-width: 240px;
+  overflow: hidden;
+  font-size: 18px;
+  color: #dcdcdc;
+  font-weight: 400;
+  line-height: 27px;
+  flex: 1;
+}
+@media (max-width: 991px) {
+  .services-description {
+    max-width: 100%;
+  }
+}
+.services-content {
+  display: flex;
+  margin-top: 80px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+@media (max-width: 991px) {
+  .services-content {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.services-row {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  gap: 40px 96px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+  .services-row {
+    max-width: 100%;
+  }
+}
+.service-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+.service-icon {
+  display: flex;
+  min-height: 48px;
+  width: 48px;
+  flex-direction: column;
+  justify-content: start;
+}
+.service-icon img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+.service-title {
+  color: #dcdcdc;
+  margin-top: 24px;
+  font: 700 24px/34px Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+}
+.service-description {
+  color: #dcdcdc;
+  margin-top: 24px;
+  font: 400 16px Roboto, sans-serif;
+}
+.service-action {
+  display: flex;
+  margin-top: 32px;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  color: #dcdcdc;
+  justify-content: start;
+  font: 400 16px Roboto, sans-serif;
+}
+.service-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  justify-content: center;
+}
+.service-button-text {
+  align-self: stretch;
+  margin: auto 0;
+}

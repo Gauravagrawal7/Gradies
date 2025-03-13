@@ -1,0 +1,129 @@
+.cta-section {
+  display: flex;
+  margin-top: 45px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  justify-content: center;
+  padding: 112px 64px;
+}
+@media (max-width: 991px) {
+  .cta-section {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 100px 20px;
+  }
+}
+.cta-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 40px 80px;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+  .cta-container {
+    max-width: 100%;
+  }
+}
+.cta-content {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .cta-content {
+    max-width: 100%;
+  }
+}
+.cta-text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+@media (max-width: 991px) {
+  .cta-text {
+    max-width: 100%;
+  }
+}
+.cta-heading {
+  color: #dcdcdc;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media (max-width: 991px) {
+  .cta-heading {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+.cta-description {
+  color: #dcdcdc;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 24px;
+}
+@media (max-width: 991px) {
+  .cta-description {
+    max-width: 100%;
+  }
+}
+.cta-actions {
+  align-self: start;
+  display: flex;
+  margin-top: 32px;
+  align-items: start;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: start;
+}
+.cta-button-primary {
+  align-self: stretch;
+  border-radius: 32px;
+  background-color: rgba(255, 119, 0, 1);
+  gap: 8px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 12px 24px;
+}
+@media (max-width: 991px) {
+  .cta-button-primary {
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+.cta-button-secondary {
+  align-self: stretch;
+  border-radius: 32px;
+  gap: 8px;
+  color: #dcdcdc;
+  padding: 12px 24px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+@media (max-width: 991px) {
+  .cta-button-secondary {
+    padding: 0 20px;
+  }
+}
+.cta-image {
+  background-color: rgba(138, 138, 138, 1);
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  width: 616px;
+  height: 400px;
+  flex: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}

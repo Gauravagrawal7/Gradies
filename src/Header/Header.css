@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  min-height: 72px;
+  width: 100%;
+  align-items: center;
+  gap: 40px 100px;
+  overflow: hidden;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 64px;
+  font: 400 16px Roboto, sans-serif;
+}
+@media (max-width: 991px) {
+  .header {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.nav-menu {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 24px;
+  color: #dcdcdc;
+  justify-content: start;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .nav-menu {
+    max-width: 100%;
+  }
+}
+.nav-links {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 32px;
+  overflow: hidden;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .nav-links {
+    max-width: 100%;
+  }
+}
+.logo {
+  color: rgba(220, 220, 220, 1);
+  font-weight: 900;
+  align-self: stretch;
+  margin: auto 0;
+}
+.nav-link {
+  align-self: stretch;
+  margin: auto 0;
+}
+.nav-link-dropdown {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+  margin: auto 0;
+}
+.dropdown-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 15px;
+  align-self: stretch;
+  overflow: hidden;
+  margin: auto 0;
+}
+.header-actions {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin: auto 0;
+}
+.btn-secondary {
+  align-self: stretch;
+  border-radius: 27px;
+  gap: 8px;
+  color: rgba(220, 220, 220, 1);
+  white-space: nowrap;
+  width: 110px;
+  margin: auto 0;
+  padding: 8px 9px 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+@media (max-width: 991px) {
+  .btn-secondary {
+    white-space: initial;
+  }
+}
+.btn-primary {
+  align-self: stretch;
+  border-radius: 38px;
+  background-color: rgba(255, 119, 0, 1);
+  gap: 8px;
+  color: rgba(255, 255, 255, 1);
+  width: 126px;
+  margin: auto 0;
+  padding: 8px 20px;
+}
